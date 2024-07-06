@@ -1,5 +1,5 @@
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return <main>Navbar Hero Section Highlights</main>;
 };
 
 export default App;
