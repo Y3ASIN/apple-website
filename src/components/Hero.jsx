@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect  } from "react";
 
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -67,7 +66,7 @@ const Hero = () => {
         <a href="#highlights" className="btn">
           Buy
         </a>
-        <p className="font-normal text-xl">From $199/ month or $ 999</p>
+        <p className="font-normal text-xl">From $199 / month or $ 999</p>
       </div>
     </section>
   );
