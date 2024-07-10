@@ -5,6 +5,7 @@
  - Styling with Tailwind CSS
  - Animate with GSAP 
  - 3D Modeling with Thress js
+ - Performance tracking with Sentry
 
 **Visit** : [iPhone 15 Pro](https://apple-website-y.netlify.app/)
 
