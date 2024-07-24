@@ -1,11 +1,23 @@
 import { Html } from "@react-three/drei";
-import React from "react";
 
 const Loader = () => {
   return (
     <Html>
-      <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-        <div className="w-[10vw] h-[10vw] rounded-full">Loading...</div>
+      <div className="absolute flex items-center justify-center">
+        <div className="bg-zinc p-4 rounded-full flex space-x-2">
+          <div
+            className="h-2 w-2 bg-[#8F8A81] rounded-full animate-bounce"
+            style={{ animationDelay: "0.2s" }}
+          ></div>
+          <div
+            className="h-2 w-2 bg-[#53596E] rounded-full animate-bounce "
+            style={{ animationDelay: "0.3s" }}
+          ></div>
+          <div
+            className="h-2 w-2 bg-[#C9C8C2] rounded-full animate-bounce "
+            style={{ animationDelay: "0.4s" }}
+          ></div>
+        </div>
       </div>
     </Html>
   );

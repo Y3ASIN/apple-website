@@ -13,6 +13,11 @@ export default {
         },
         zinc: "#101010",
       },
+      // animationDelay: {
+      //   400: "1000ms",
+      //   600: "1300ms",
+      //   800: "1600ms",
+      // },
     },
   },
   plugins: [],
