@@ -19,6 +19,17 @@ const HowItWorks = () => {
       ease: "power2.inOut",
     });
 
+    gsap.to("#game-video", {
+      scrollTrigger: {
+        trigger: "#game-video",
+        toggleActions: "play pause reverse restart",
+        start: "-10% bottom",
+      },
+      onComplete: () => {
+        videoRef.current.play();
+      },
+    });
+
     animateWithGsap(".g_fadeIn", {
       y: 0,
       opacity: 1,
@@ -56,6 +67,7 @@ const HowItWorks = () => {
             </div>
             <div className="hiw-video">
               <video
+                id="game-video"
                 className="pointer-events-none"
                 playsInline
                 preload="none"
