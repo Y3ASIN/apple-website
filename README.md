@@ -7,7 +7,23 @@
  - 3D Modeling with Thress js
  - Performance tracking with Sentry
 
-**Visit** : [iPhone 15 Pro](https://apple-website-y.netlify.app/)
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Visit : [iPhone 15 Pro](https://apple-website-y.netlify.app/)
 
 <div align="center">
   
