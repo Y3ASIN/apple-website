@@ -4,7 +4,7 @@
  - Build with React js
  - Styling with Tailwind CSS
  - Animate with GSAP 
- - 3D Modeling with Thress js
+ - 3D Modeling with Three js
  - Performance tracking with Sentry
 
 ## Getting Started
